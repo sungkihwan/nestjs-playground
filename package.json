@@ -20,13 +20,20 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@nestjs-modules/ioredis": "^1.0.1",
+    "@nestjs/bull": "^10.0.1",
     "@nestjs/common": "^9.0.0",
+    "@nestjs/config": "^3.0.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
+    "airtable": "^0.12.2",
     "async-lock": "^1.4.0",
     "async-mutex": "^0.4.0",
     "axios": "^1.4.0",
+    "bull": "^4.11.3",
     "googleapis": "^123.0.0",
+    "ioredis": "^5.3.2",
+    "lodash": "^4.17.21",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0"
   },
@@ -74,7 +81,10 @@
       "<rootDir>/libs/"
     ],
     "moduleNameMapper": {
-      "^@libs/spreadsheet(|/.*)$": "<rootDir>/libs/spreadsheet/src/$1"
+      "^@libs/spreadsheet(|/.*)$": "<rootDir>/libs/spreadsheet/src/$1",
+      "^@libs/redis(|/.*)$": "<rootDir>/libs/redis/src/$1",
+      "^@libs/utils(|/.*)$": "<rootDir>/libs/utils/src/$1",
+      "^@libs/airtable(|/.*)$": "<rootDir>/libs/airtable/src/$1"
     }
   }
 }

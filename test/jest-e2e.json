@@ -12,6 +12,12 @@
   },
   "moduleNameMapper": {
     "@libs/spreadsheet/(.*)": "<rootDir>/../libs/spreadsheet/src/$1",
-    "@libs/spreadsheet": "<rootDir>/../libs/spreadsheet/src"
+    "@libs/spreadsheet": "<rootDir>/../libs/spreadsheet/src",
+    "@libs/redis/(.*)": "<rootDir>/../libs/redis/src/$1",
+    "@libs/redis": "<rootDir>/../libs/redis/src",
+    "@libs/utils/(.*)": "<rootDir>/../libs/utils/src/$1",
+    "@libs/utils": "<rootDir>/../libs/utils/src",
+    "@libs/airtable/(.*)": "<rootDir>/../libs/airtable/src/$1",
+    "@libs/airtable": "<rootDir>/../libs/airtable/src"
   }
 }

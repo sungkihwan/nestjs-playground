@@ -23,6 +23,24 @@
       ],
       "@libs/spreadsheet/*": [
         "libs/spreadsheet/src/*"
+      ],
+      "@libs/redis": [
+        "libs/redis/src"
+      ],
+      "@libs/redis/*": [
+        "libs/redis/src/*"
+      ],
+      "@libs/utils": [
+        "libs/utils/src"
+      ],
+      "@libs/utils/*": [
+        "libs/utils/src/*"
+      ],
+      "@libs/airtable": [
+        "libs/airtable/src"
+      ],
+      "@libs/airtable/*": [
+        "libs/airtable/src/*"
       ]
     }
   }
