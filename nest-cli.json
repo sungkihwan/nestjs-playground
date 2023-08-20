@@ -42,6 +42,15 @@
       "compilerOptions": {
         "tsConfigPath": "libs/airtable/tsconfig.lib.json"
       }
+    },
+    "dynamodb": {
+      "type": "library",
+      "root": "libs/dynamodb",
+      "entryFile": "index",
+      "sourceRoot": "libs/dynamodb/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/dynamodb/tsconfig.lib.json"
+      }
     }
   }
 }

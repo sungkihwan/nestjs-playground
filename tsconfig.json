@@ -41,6 +41,12 @@
       ],
       "@libs/airtable/*": [
         "libs/airtable/src/*"
+      ],
+      "@libs/dynamodb": [
+        "libs/dynamodb/src"
+      ],
+      "@libs/dynamodb/*": [
+        "libs/dynamodb/src/*"
       ]
     }
   }

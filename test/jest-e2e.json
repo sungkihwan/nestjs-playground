@@ -18,6 +18,8 @@
     "@libs/utils/(.*)": "<rootDir>/../libs/utils/src/$1",
     "@libs/utils": "<rootDir>/../libs/utils/src",
     "@libs/airtable/(.*)": "<rootDir>/../libs/airtable/src/$1",
-    "@libs/airtable": "<rootDir>/../libs/airtable/src"
+    "@libs/airtable": "<rootDir>/../libs/airtable/src",
+    "@libs/dynamodb/(.*)": "<rootDir>/../libs/dynamodb/src/$1",
+    "@libs/dynamodb": "<rootDir>/../libs/dynamodb/src"
   }
 }
