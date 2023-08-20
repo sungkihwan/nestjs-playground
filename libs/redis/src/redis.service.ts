@@ -40,22 +40,12 @@ export class RedisService {
   //     return this.airtableQueue.add(name, data)
   // }
   //
-  // async getAirtableJobsCount(): Promise<number> {
+  // async getTestJobsCount(): Promise<number> {
   //     const waitingCount = await this.airtableQueue.getWaitingCount();
   //     console.log(`waitingCount : ${waitingCount}`)
   //     const activeCount = await this.airtableQueue.getActiveCount();
   //     console.log(`activeCount : ${activeCount}`)
   //     const delayedCount = await this.airtableQueue.getDelayedCount();
-  //     console.log(`delayedCount : ${delayedCount}`)
-  //     return waitingCount + activeCount + delayedCount;
-  // }
-  //
-  // async getTaxScrappingQueueSlowCount(): Promise<number> {
-  //     const waitingCount = await this.taxScrappingQueueSlow.getWaitingCount();
-  //     console.log(`waitingCount : ${waitingCount}`)
-  //     const activeCount = await this.taxScrappingQueueSlow.getActiveCount();
-  //     console.log(`activeCount : ${activeCount}`)
-  //     const delayedCount = await this.taxScrappingQueueSlow.getDelayedCount();
   //     console.log(`delayedCount : ${delayedCount}`)
   //     return waitingCount + activeCount + delayedCount;
   // }
